@@ -1,0 +1,26 @@
+{
+  "name": "NodeTDDSampleApp",
+  "version": "0.0.1",
+  "description": "A sample nodejs app for Test Driven Development tutorial",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha -R tap"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "1.9.x",
+    "cfenv": "1.0.x",
+    "chai": "^3.4.1",
+    "cloudant": "1.4.x",
+    "express": "^4.12.4",
+    "https": "^1.0.0",
+    "mocha": "^2.3.4",
+    "request": "^2.67.0"
+  },
+  "repository": {},
+  "engines": {
+    "node": "0.12.x"
+  }
+}
